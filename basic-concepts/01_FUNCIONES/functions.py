@@ -9,8 +9,20 @@ VENTAJAS:
 - Evita la repetición de instrucciones y facilita su reutilización.
 
 DEFINICIÓN:
-def <¡nombre_funcion>():
+def ejemplo_funcion(parametros, *args, **kwargs):
+    Docstring
     <instrucciones>
+    return variables
+
+LLAMADA:
+variable = ejemplo_funcion(parametro=1)
+
+PARÁMETRO: Variables que ingresan a la función (Nombre)
+ARGUMENTO: Variables que ingresan a la función (Valor)
+*args: Permite pasar un número variable de argumentos a una función
+**Kwargs: Similar a args pero los parámetros se pasan en forma de diccionarios
+Retorno: Resultados
+
 '''
 
 APELLIDO = "García" 
