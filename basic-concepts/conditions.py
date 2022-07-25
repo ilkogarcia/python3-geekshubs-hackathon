@@ -61,27 +61,3 @@ z = 1
 
 if x > y and y > z:
     print("X es mayor que Z")
-
-
-# Cómo se usan los ciclos
-# ciclos: for, while
-
-for letra in "Texto":
-    print("Elemento:", letra)
-
-
-lenguajes = ["python", "java", "golang"]
-for elemento in lenguajes:
-    if elemento == "java":
-        continue
-    print(elemento)
-
-
-for element in range(1, 5):
-    print(element)
-
-
-'''
-while <condicion>:
-    print("Iteración"+1)
-'''
